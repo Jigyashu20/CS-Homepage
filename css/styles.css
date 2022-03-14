@@ -1,0 +1,330 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+body{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.mainbody {
+    margin: 0px;
+    padding: 0% 10%;
+}
+
+header{
+    margin-bottom: -1px;
+}
+@media screen and (max-width: 550px){
+    header{
+        margin-bottom: -5px;
+    }
+}
+
+/* Navbar */
+.navbar-brand{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.nav-item{
+    font-size: 1.1rem;
+    margin: 5px;
+}
+
+/* wallpaper section */
+
+.wallpaperimg{
+    position: relative;
+    text-align: left;
+    float: left;
+    margin: auto;
+}
+
+.tagline{
+    color: #ff0066;
+    text-align: right;
+    padding-top: 10%;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.8rem;
+    padding-right: 7px;
+}
+
+.fa-hand-holding-heart{
+    color: red;
+    padding-right: 7px;
+}
+
+.taglinetxt{
+    margin-top: 60px;
+    font-family: "Ubuntu";
+    font-size: 2.2rem;
+    text-align: right;
+    font-weight: 600;
+    padding-right: 7px;
+}
+
+.iitk{
+    font-weight: 400;
+}
+
+.taglineinfo{
+    font-family: "Ubuntu";
+    font-size: 1.1rem;
+    text-align: right;
+    color: rgb(83, 81, 81);
+    padding-right: 7px;
+}
+
+.divedeeper{
+    margin-right: 0%;
+}
+
+sup{
+    color:rgb(81, 81, 230);
+}
+.touch{
+    color: rgb(81, 81, 230);
+    font-size: 4.2rem;
+}
+
+@media screen and (max-width: 1500px){
+    .touchbox{
+        display:inline-flex;
+        text-align: center;
+    }
+    .headimg{
+        position: relative;
+        z-index: 10;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .taglineinfo,.taglinetxt,.tagline{
+        text-align: center;
+    }
+}
+
+.carousel-caption{
+    background-color: black;
+    opacity: 0.7;
+}
+
+.carousalquote{
+    font-family: 'Ubuntu';
+    font-size: 1.3rem;
+}
+
+.author{
+    font-family: "Ubuntu";
+    font-size: 1rem;
+    color: burlywood;
+    text-align: center;
+}
+
+.quotationmark{
+    padding: 5px;
+    margin: 5px;
+}
+
+/* features section */
+.features{
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.introline,.highlightedwords{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: rgb(81, 81, 230);
+}
+
+.highlightedwords{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #ff0066;
+}
+
+.human-heart {
+    animation: .8s infinite beatHeart;
+    color: #ff0066;
+  }
+  
+@keyframes beatHeart {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.1);
+    }
+    40% {
+      transform: scale(1);
+    }
+    60% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    width: 30%;
+    border-color: rgb(109, 106, 106);
+    border-width: 10px;
+    background-color:white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}  
+
+.col-lg-4{
+    padding: 50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.col-lg-4:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+  
+.light{
+    background-color: #ADEFD1FF;
+    color: #00203FFF;
+}
+
+.dark{
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+}
+
+/*Features text*/
+.texthead{
+    font-family: 'Ubuntu';
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+.textualmatter{
+    font-family: "Ubuntu";
+    font-weight: 400;
+    height:75px;
+}
+
+
+/* social media */
+.social{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0% 10%;
+    margin-bottom: 2%;
+}
+
+.social-media{
+    height: 400px;
+    overflow-y: scroll;
+    padding: 0px;
+    margin: 1.5%;
+    width: 30%;
+}
+
+.socialinfo hr{
+    width: 10%;
+}
+
+@media screen and (max-width: 992px){
+    .social-media{
+        width: 95%;
+    }
+}
+
+/* for hiding scroll bar */
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.socialinfo{
+    text-align: center;
+    font-family: "Ubuntu";
+    font-weight: 900;
+    font-size: 2.8rem;
+    padding: 0% 10% 0% 10%;
+    margin-top: 5%;
+    color:rgb(81, 81, 230);
+}
+
+.socialinfo i{
+    color:#ff0066 ;
+}
+
+.social h3{
+    padding: 15px 0px;
+    color: grey;
+}
+
+/* Footer section */
+footer {
+    background-color: #005AA9;
+    color: #fff;
+    font-size: 1em;
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0.1%;
+    /* z-index: 999; */
+}
+
+footer p {
+    margin-top: 1rem;
+}
+
+/* end buttons */
+.specialbutton {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+.specialbutton:active {
+	transform: scale(0.95);
+}
+
+.specialbutton:focus {
+	outline: none;
+}
+
+.specialbutton.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
+.endbuttons{
+    margin:5% 10% 0 10%;
+    padding: 0% 10%;
+}
+
+.buttonmatter{
+    padding: 10%;
+}
